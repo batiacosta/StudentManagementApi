@@ -6,7 +6,7 @@ namespace StudentManagementApi.Interfaces
     {
         IEnumerable<Student> GetAll();
         Student GetById(int id);
-        void Create(Student student);
+        Student Create(Student student);
         void Update(Student student);
         void Delete(Student student);
     }
